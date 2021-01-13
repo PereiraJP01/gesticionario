@@ -11,14 +11,14 @@ $(document).ready(function () {
 
     function createConfigurations() {
         for (let i = 1; i <= 20; i++) {
-            const item = `<button class="col 1 button"><img src="https://PereiraJP01.github.io/gesticionario/assets/forma_da_mao/forma_${i}.png" data-index="${i}" class="${i===1 ?'configImg collapse-items active':'configImg collapse-items'}" id="img_btn"  alt="img"/></button>`
+            const item = `<button class="col 1 button"><img src="assets/forma_da_mao/forma_${i}.png" data-index="${i}" class="${i===1 ?'configImg collapse-items active':'configImg collapse-items'}" id="img_btn"  alt="img"/></button>`
             $('#configs').append(item)
         }
     }
 
     function createLocations() {
         for (let i = 1; i <= 16; i++) {
-            const item = `<button class="col 1 button"><img data-index="${i}" src="https://PereiraJP01.github.io/gesticionario/assets/localizacao/${i}.png" class="${i===1 ?'locationImg collapse-items active':'locationImg collapse-items'}" alt="location"/></button>`
+            const item = `<button class="col 1 button"><img data-index="${i}" src="assets/localizacao/${i}.png" class="${i===1 ?'locationImg collapse-items active':'locationImg collapse-items'}" alt="location"/></button>`
             $('#locations').append(item)
         }
     }
