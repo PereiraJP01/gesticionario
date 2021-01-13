@@ -52,7 +52,7 @@
 });
 </script>
 	
-	<script src="https://PereiraJP01.github.io/gesticionario/js/advanced-search.js"></script>
+	<!--<script src="https://PereiraJP01.github.io/gesticionario/js/advanced-search.js"></script>-->
 	<script>
 		 M.AutoInit();
 	</script>
