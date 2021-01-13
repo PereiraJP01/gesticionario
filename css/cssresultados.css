@@ -1,0 +1,74 @@
+/* CSS Document */
+
+html{
+	color: #00000;
+	font-family: Franklin Gothic;
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+
+.purple_custom_bg{
+	background: #9162FC!important;
+}
+
+.purple_custom_text{
+	color: #9162FC!important;
+}
+.black_custom_text{
+	color:#000000!important;
+}
+
+
+.white_custom_text{
+	color: #FFFFFF !important;
+}
+
+.modal_context_text h6{
+	color: #9162FC;
+}
+
+.logo_size{
+	width: 60px;
+}
+
+
+.input-field{
+	width: 400px;
+	position:absolute;
+	right: 0;
+}
+
+.card_img{
+	right: 0;
+	height: 50px;
+	width:  50px;
+}
+
+.card{
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+::-webkit-scrollbar{
+	width:10px;
+}
+
+::-webkit-scrollbar-track{
+	background: #2B2832;
+	box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+	background:#5A5A5A;
+	border-radius:50px;
+}

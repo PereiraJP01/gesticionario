@@ -1,0 +1,183 @@
+/* CSS Document */
+
+html { 
+	font-family:Franklin Gothic !important;
+	color: black;
+  	background: url("../assets/background_home.png") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+.purple_custom_bg{
+	background: #9162FC!important;
+}
+
+.purple_custom_text{
+	color: #9162FC!important;
+}
+
+.white_custom_text{
+	color: #FFFFFF !important;
+}
+
+
+.logoContainer{
+	margin-top: 5%;
+}
+.logo{
+	width: 250px;
+}
+input{
+	border: none !important;
+	box-shadow: none !important
+}
+.row table tr td input:focus {
+   	border-bottom: none !important;
+   	box-shadow: none !important
+ }
+
+
+.elementsContainer{	
+	
+	margin:auto;
+	margin-top: 1%;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0px 10px;
+	border-radius: 50px;
+}	
+
+.search{
+	
+	border: none;
+	height:100%;
+	width:100%;
+	padding: 0px 0px;
+	border-radius:50px;
+	font-size: 20px !important;
+	font-family: Franklin Gothic;;
+	color:#1B1B1B !important;
+
+}
+
+.search:focus{
+	outline:none
+}
+
+.material-icons{
+	font-size:25;
+	color: #9162FC;
+}
+
+.elementsContainer td{
+	margin-top: 10px;
+	padding: 0px 0px 5px !important;
+}
+.elementsContainer td input{
+	position: relative;
+	top: 5px;
+	left: 30px;
+
+}
+
+.elementsContainer td button {
+	position: relative;
+	right:20px;
+	float:right!important;
+	margin-top: 10px;
+}
+
+.advancesearch a{
+	color: white;
+}
+
+.advancesearch i{
+	color: white;
+}
+
+.advancesearch a i {
+	position: relative;
+	top:7px !important;
+} 
+
+.dropdown_style{
+	max-height: 400px;
+}
+
+
+.modal-close a{
+	color: white;
+}
+
+.modal-close i{
+	color: white;
+}
+
+.modal-close i {
+	position: relative;
+	top: 2px !important;
+}
+
+
+.collapse-items {
+	border: 2px solid #FFFFF;	
+	height: 50px;
+	width:  50px;
+	padding: 5px;
+}
+
+ .button{
+ border: 0 !important;
+ background: none !important;
+ box-shadow: none !important;
+ border-radius: 0px !important;
+}
+
+.active {
+	border: 2px solid #9162FC;	
+}
+
+
+.footer_bottom{
+	color:white;
+}
+
+
+::-webkit-scrollbar{
+	width:10px;
+}
+
+::-webkit-scrollbar-track{
+	background: #2B2832;
+	box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+	background:#5A5A5A;
+	border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+
