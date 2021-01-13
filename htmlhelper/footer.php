@@ -3,7 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 	
-	<script src="https://PereiraJP01.github.io/gesticionario/js/advanced-search.js"></script>
+	<script src="js/advanced-search.js"></script>
 	<script>
 		 M.AutoInit();
 	</script>
