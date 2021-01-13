@@ -1,10 +1,10 @@
 <?php
 
 //Inicio de Sessão
-include_once 'htmlhelper/session_start.php';
+include_once 'https://PereiraJP01.github.io/gesticionario/htmlhelper/session_start.php';
 
 //conexão
-include_once 'htmlhelper/db_connect.php';
+include_once 'https://PereiraJP01.github.io/gesticionario/htmlhelper/db_connect.php';
 
 
 //Header
@@ -101,5 +101,5 @@ include_once 'https://PereiraJP01.github.io/gesticionario/htmlhelper/header.php'
 </footer>
 <?php
 //Footer
-include_once 'htmlhelper/footer.php';
+include_once 'https://PereiraJP01.github.io/gesticionario/htmlhelper/footer.php';
 ?>
