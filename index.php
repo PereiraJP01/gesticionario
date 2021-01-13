@@ -101,5 +101,5 @@ include_once 'htmlhelper/header.php';
 </footer>
 <?php
 //Footer
-include_once 'https://PereiraJP01.github.io/gesticionario/htmlhelper/footer.php';
+include_once 'htmlhelper/footer.php';
 ?>
