@@ -1,4 +1,6 @@
 <?php
+//Header
+include_once 'htmlhelper/header.php';
 
 //Inicio de Sessão
 include_once 'htmlhelper/session_start.php';
@@ -7,8 +9,7 @@ include_once 'htmlhelper/session_start.php';
 include_once 'htmlhelper/db_connect.php';
 
 
-//Header
-include_once 'htmlhelper/header.php';
+
 ?>
 <main>
   <div class=" container row">
