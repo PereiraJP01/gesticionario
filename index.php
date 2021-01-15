@@ -1,7 +1,7 @@
 <?php
 
 //conexão
-//include_once 'htmlhelper/db_connect.php';
+include_once 'htmlhelper/db_connect.php';
 
 
 //Header
