@@ -14,7 +14,7 @@ if ( isset( $_GET[ 'pageno' ] ) ) {
 $no_of_records_per_page = 6;
 $offset = ( $pageno - 1 ) * $no_of_records_per_page;
 
-include_once 'htmlhelper/db_connect.php';
+//include_once 'htmlhelper/db_connect.php';
 
 
 if ( isset( $_GET[ 'q' ] ) ) {
