@@ -1,11 +1,11 @@
 <?php
-//Header
-include_once 'htmlhelper/header.php';
 
 //conexão
 include_once 'htmlhelper/db_connect.php';
 
 
+//Header
+include_once 'htmlhelper/header.php';
 
 ?>
 <main>
