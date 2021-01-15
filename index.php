@@ -2,9 +2,6 @@
 //Header
 include_once 'htmlhelper/header.php';
 
-//Inicio de Sessão
-include_once 'htmlhelper/session_start.php';
-
 //conexão
 include_once 'htmlhelper/db_connect.php';
 
